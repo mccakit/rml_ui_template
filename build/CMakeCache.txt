@@ -14,8 +14,8 @@
 # EXTERNAL cache entries
 ########################
 
-//CMake standard option. Choose whether to build shared RmlUi libraries.
-BUILD_SHARED_LIBS:BOOL=ON
+//Build the library as a shared library
+BUILD_SHARED_LIBS:BOOL=OFF
 
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/dev/toolchains/llvm/bin/llvm-addr2line.exe
@@ -574,9 +574,6 @@ RMLUI_PRECOMPILED_HEADERS:BOOL=ON
 //Build samples of the library.
 RMLUI_SAMPLES:BOOL=OFF
 
-//Major version of SDL to search for, or empty for automatic search.
-RMLUI_SDL_VERSION_MAJOR:STRING=
-
 //Enable plugin for SVG images. Requires the lunasvg library.
 RMLUI_SVG_PLUGIN:BOOL=OFF
 
@@ -603,9 +600,6 @@ RmlUi_SOURCE_DIR:STATIC=C:/Users/cakit/Desktop/RmlUi-hi/extern/rml_ui
 //Value Computed by CMake
 SDL3_BINARY_DIR:STATIC=C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl
 
-//The directory containing a CMake configuration file for SDL3.
-SDL3_DIR:PATH=SDL3_DIR-NOTFOUND
-
 //Value Computed by CMake
 SDL3_IS_TOP_LEVEL:STATIC=OFF
 
@@ -614,9 +608,6 @@ SDL3_SOURCE_DIR:STATIC=C:/Users/cakit/Desktop/RmlUi-hi/extern/sdl
 
 //Value Computed by CMake
 SDL3_image_BINARY_DIR:STATIC=C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image
-
-//The directory containing a CMake configuration file for SDL3_image.
-SDL3_image_DIR:PATH=SDL3_image_DIR-NOTFOUND
 
 //Value Computed by CMake
 SDL3_image_IS_TOP_LEVEL:STATIC=OFF
@@ -1001,7 +992,7 @@ SDL_RPATH:BOOL=OFF
 SDL_SENSOR:BOOL=ON
 
 //Build a shared version of the library
-SDL_SHARED:BOOL=ON
+SDL_SHARED:BOOL=OFF
 
 //Support the sndio audio API
 SDL_SNDIO:BOOL=OFF
@@ -1022,7 +1013,7 @@ SDL_SSE4_1:BOOL=ON
 SDL_SSE4_2:BOOL=ON
 
 //Build a static version of the library
-SDL_STATIC:BOOL=OFF
+SDL_STATIC:BOOL=ON
 
 //Use iconv() from system-installed libraries
 SDL_SYSTEM_ICONV:BOOL=OFF
@@ -1068,9 +1059,6 @@ SDL_XINPUT:BOOL=ON
 
 //harfbuzz install option
 SKIP_INSTALL_LIBRARIES:BOOL=ON
-
-//Path to a library.
-Shlwapi:FILEPATH=Shlwapi-NOTFOUND
 
 //default size of the strip in bytes (when strip chopping is enabled)
 TIFF_DEFAULT_STRIP_SIZE:STRING=8192
@@ -1666,8 +1654,6 @@ HAVE_UNISTD_H:INTERNAL=
 HAVE_WIN32_CC:INTERNAL=1
 //Test HAVE_WINDOWS_GAMING_INPUT_H
 HAVE_WINDOWS_GAMING_INPUT_H:INTERNAL=1
-//Test HAVE_WL_NO_UNDEFINED
-HAVE_WL_NO_UNDEFINED:INTERNAL=1
 //Test HAVE_XINPUT_H
 HAVE_XINPUT_H:INTERNAL=1
 //ADVANCED property for variable: JBIG_INCLUDE_DIR
@@ -1980,8 +1966,6 @@ RMLUI_INSTALL_LICENSES_AND_BUILD_INFO-ADVANCED:INTERNAL=1
 RMLUI_INSTALL_RUNTIME_DEPENDENCIES-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: RMLUI_INSTALL_TARGETS_DIR
 RMLUI_INSTALL_TARGETS_DIR-ADVANCED:INTERNAL=1
-//ADVANCED property for variable: RMLUI_SDL_VERSION_MAJOR
-RMLUI_SDL_VERSION_MAJOR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: RMLUI_WARNINGS_AS_ERRORS
 RMLUI_WARNINGS_AS_ERRORS-ADVANCED:INTERNAL=1
 //STRINGS property for variable: SDLMIXER_VORBIS

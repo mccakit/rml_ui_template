@@ -7,8 +7,9 @@ project(
     DESCRIPTION "Lmao"
     LANGUAGES C CXX
 )
+set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 26)
-set(CMAKE_BUILD_SHARED_LIBS OFF)
+set(BUILD_SHARED_LIBS OFF)
 add_subdirectory(source)
 add_subdirectory(extern)
 add_subdirectory(apps)

@@ -1,0 +1,1303 @@
+{
+	"inputs" : 
+	[
+		{
+			"path" : "CMakeLists.txt"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.20250602-ge3b7a00/CMakeSystem.cmake"
+		},
+		{
+			"path" : "toolchains/llvm-win-x64.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeSystemSpecificInitialize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows-Initialize.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.20250602-ge3b7a00/CMakeCCompiler.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.20250602-ge3b7a00/CMakeCXXCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeSystemSpecificInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeGenericSystem.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeInitializeConfigs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/WindowsPaths.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Compiler/Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows-Clang-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows-Clang.cmake"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/CMakeFiles/4.0.20250602-ge3b7a00/CMakeRCCompiler.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeRCInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CMakeCLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-LLD-C.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCXXInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeLanguageInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Compiler/Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Compiler/Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows-Clang-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Windows-Clang.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCommonLanguageInclude.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CMakeCXXLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CMakeCommonLinkerInformation.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Linker/MSVC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-LLD-CXX.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-LLD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Platform/Linker/Windows-MSVC.cmake"
+		},
+		{
+			"path" : "source/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindOpenGL.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckLanguage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceRuns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCXXCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckStructHasMember.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCXXSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/macros.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckLinkerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckFlagCommonConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/Internal/CheckSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeCheckCompilerFlagCommonPatterns.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlchecks.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlcommands.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlcompilers.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/sdlplatform.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/3rdparty.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/PreseedMSVCCache.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/PreseedEmscriptenCache.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/PreseedNokiaNGageCache.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/FindLibUSB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl/include/build_config/SDL_build_config.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindGit.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : ".git/modules/extern/sdl/HEAD"
+		},
+		{
+			"path" : "extern/sdl/cmake/GetGitRevisionDescription.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/extern/sdl/CMakeFiles/git-data/grabRef.cmake"
+		},
+		{
+			"path" : ".git/modules/extern/sdl/refs/heads/main"
+		},
+		{
+			"path" : "extern/sdl/include/build_config/SDL_revision.h.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "extern/sdl/cmake/SDL3Config.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/BasicConfigVersion-AnyNewerVersion.cmake.in"
+		},
+		{
+			"isGenerated" : true,
+			"path" : "build/extern/sdl/CMakeFiles/SDL_build_config.h.intermediate"
+		},
+		{
+			"path" : "extern/sdl_ttf/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/PkgConfigHelper.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/PrivateSdlFunctions.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/sdlplatform.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/external/harfbuzz/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPython3.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPython/Support.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckFunctionExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/external/freetype/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPkgConfig.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CPack.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CPackComponent.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Templates/CPackConfig.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_ttf/external/plutovg/CMakeLists.txt"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "extern/sdl_ttf/external/plutovg/cmake/plutovgConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/BasicConfigVersion-SameMajorVersion.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_ttf/external/plutosvg/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_mixer/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/PrivateSdlFunctions.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/sdlplatform.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl_mixer/cmake/PkgConfigHelper.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/GetGitRevisionDescription.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/PrivateSdlFunctions.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePushCheckState.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/sdlcpu.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/sdlplatform.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/sdlmanpages.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeParseArguments.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakeDependentOption.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/AutotoolsVersion.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/AutotoolsCompat.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/CompilerChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCCompilerFlag.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/LinkerChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckCSourceCompiles.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/ProcessorChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/TestBigEndian.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/IncludeChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/SymbolChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/TypeSizeChecks.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckTypeSize.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFile.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckIncludeFileCXX.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/LargeFileSupport.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/InternalCodecs.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/DeflateCodec.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindZLIB.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindDeflate.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/PixarLogCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/JPEGCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindJPEG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/JBIGCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindJBIG.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/LERCCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindLERC.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/LZMACodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/Findliblzma.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/ZSTDCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindZSTD.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/WebPCodec.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/cmake/FindWebP.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/CXXLibrary.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/WindowsSupport.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/LibraryFeatures.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/FindCMath.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckSymbolExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CheckLibraryExists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/Release.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/cmake/PkgConfig.cmake"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/libtiff-4.pc.in"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/configure.ac"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/port/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/port/libport_config.h.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/libtiff/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/libtiff/tif_config.h.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/libtiff/tiffconf.h.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/libtiff/tiffvers.h.cmake.in"
+		},
+		{
+			"path" : "extern/sdl_image/external/libtiff/build/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/OptionsLists.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/GNUInstallDirs.cmake"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/Utilities.cmake"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/Dependencies.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindFreetype.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/SelectLibraryConfigurations.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageHandleStandardArgs.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/FindPackageMessage.cmake"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/RuntimeUtilities.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/CMakePackageConfigHelpers.cmake"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/WriteBasicConfigVersionFile.cmake"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/RmlUiConfig.cmake.in"
+		},
+		{
+			"isCMake" : true,
+			"isExternal" : true,
+			"path" : "C:/dev/tools/CMake/Modules/BasicConfigVersion-ExactVersion.cmake.in"
+		},
+		{
+			"path" : "extern/rml_ui/CMake/PackageUtilities.cmake"
+		},
+		{
+			"path" : "extern/rml_ui/Source/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Source/Core/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Source/Core/Elements/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Source/Core/Layout/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Source/Core/FontEngineDefault/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Source/Debugger/CMakeLists.txt"
+		},
+		{
+			"path" : "extern/rml_ui/Samples/CMakeLists.txt"
+		},
+		{
+			"path" : "apps/CMakeLists.txt"
+		}
+	],
+	"kind" : "cmakeFiles",
+	"paths" : 
+	{
+		"build" : "C:/Users/cakit/Desktop/RmlUi-hi/build",
+		"source" : "C:/Users/cakit/Desktop/RmlUi-hi"
+	},
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 1
+	}
+}

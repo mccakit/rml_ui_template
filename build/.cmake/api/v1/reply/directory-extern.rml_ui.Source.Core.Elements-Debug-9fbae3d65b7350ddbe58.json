@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "extern/rml_ui/Source/Core/Elements",
+		"source" : "extern/rml_ui/Source/Core/Elements"
+	}
+}

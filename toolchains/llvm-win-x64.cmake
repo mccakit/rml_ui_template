@@ -1,6 +1,6 @@
 set(CMAKE_SYSTEM_NAME Windows)
 set(CMAKE_SYSTEM_PROCESSOR X86_64)
-set(CMAKE_SYSROOT "C:/Program Files (x86)/Microsoft SDKs/Windows Kits/10")
+set(CMAKE_SYSROOT "C:/Program Files (x86)/Windows Kits/10")
 set(triple x86_64-windows-msvc)
 set(CMAKE_C_COMPILER clang)
 set(CMAKE_C_COMPILER_TARGET ${triple})

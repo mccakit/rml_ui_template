@@ -1,0 +1,416 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "apps/main.exe"
+		},
+		{
+			"path" : "apps/main.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"sdl_generic_link_dependency",
+			"sdl_link_dependency"
+		],
+		"files" : 
+		[
+			"apps/CMakeLists.txt",
+			"extern/sdl/cmake/sdlcommands.cmake",
+			"extern/sdl/CMakeLists.txt",
+			"extern/rml_ui/CMakeLists.txt",
+			"extern/rml_ui/Source/Core/CMakeLists.txt",
+			"extern/sdl_ttf/external/freetype/CMakeLists.txt",
+			"extern/sdl_ttf/CMakeLists.txt",
+			"extern/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 2,
+				"parent" : 0
+			},
+			{
+				"file" : 2
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 2097,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 5
+			},
+			{
+				"command" : 3,
+				"file" : 2,
+				"line" : 2151,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 75,
+				"parent" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 56,
+				"parent" : 8
+			},
+			{
+				"file" : 3
+			},
+			{
+				"command" : 1,
+				"file" : 3,
+				"line" : 148,
+				"parent" : 10
+			},
+			{
+				"file" : 4
+			},
+			{
+				"command" : 1,
+				"file" : 4,
+				"line" : 399,
+				"parent" : 12
+			},
+			{
+				"file" : 5
+			},
+			{
+				"command" : 1,
+				"file" : 5,
+				"line" : 565,
+				"parent" : 14
+			},
+			{
+				"file" : 6
+			},
+			{
+				"command" : 1,
+				"file" : 6,
+				"line" : 316,
+				"parent" : 16
+			},
+			{
+				"file" : 7
+			},
+			{
+				"command" : 1,
+				"file" : 7,
+				"line" : 40,
+				"parent" : 18
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-O0 -std=gnu++26 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 2,
+					"define" : "RMLUI_STATIC_LIB"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/sdl_ttf/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/include-revision"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/sdl/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/sdl_mixer/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/sdl_image/include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/rml_ui/Include"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "C:/Users/cakit/Desktop/RmlUi-hi/extern/rml_ui/Backends"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "26"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			],
+			"sysroot" : 
+			{
+				"path" : "C:/Program Files (x86)/Windows Kits/10"
+			}
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "rmlui_backend_SDL_GL3::@4b650f177ba80d6d5e76"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3-static::@59b638b17438f369295d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3_ttf-static::@208409fbfa68efeaf6f1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "harfbuzz::@61ce1337340d846d1588"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3_mixer-static::@2525eb5a7216c6e8ba9f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "SDL3_image-static::@517350122acd1579cae9"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rmlui_core::@a34cfabcfda8afb4e3e0"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "rmlui_debugger::@739ab7f2c2527e4622ce"
+		}
+	],
+	"id" : "main::@9e189ee61a034fc9b705",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-O0 -D_DEBUG -D_DLL -D_MT -Xclang --dependent-lib=msvcrtd -g -Xclang -gcodeview",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-Xlinker /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "-fuse-ld=lld-link",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\sdl_ttf\\SDL3_ttf.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\sdl_mixer\\SDL3_mixer.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\sdl_image\\SDL3_image.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\sdl\\SDL3-static.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "extern\\rmlui_backend_SDL_GL3.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lkernel32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-luser32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lwinmm.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-limm32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lole32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-loleaut32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lversion.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-luuid.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-ladvapi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lsetupapi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 6,
+				"fragment" : "-lshell32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 9,
+				"fragment" : "-ldinput8.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "rmlui_debugger.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 11,
+				"fragment" : "rmlui.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 13,
+				"fragment" : "extern\\sdl_ttf\\external\\freetype-build\\freetyped.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 15,
+				"fragment" : "extern\\sdl_ttf\\external\\harfbuzz-build\\harfbuzz.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lusp10.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lgdi32.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 17,
+				"fragment" : "-lrpcrt4.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 19,
+				"fragment" : "-lopengl32.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 -loldnames",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX",
+		"sysroot" : 
+		{
+			"path" : "C:/Program Files (x86)/Windows Kits/10"
+		}
+	},
+	"name" : "main",
+	"nameOnDisk" : "main.exe",
+	"paths" : 
+	{
+		"build" : "apps",
+		"source" : "apps"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "apps/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

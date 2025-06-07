@@ -8,5 +8,4 @@ target_link_libraries(
         SDL3::SDL3
         RmlUi::RmlUi
         rmlui_backend_SDL_GL3
-        shell
 )

@@ -1,0 +1,728 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						23
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0.2"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "source",
+					"jsonFile" : "directory-source-Debug-be4710394502bfacce20.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "source",
+					"targetIndexes" : 
+					[
+						7,
+						15
+					]
+				},
+				{
+					"build" : "extern",
+					"childIndexes" : 
+					[
+						3,
+						4,
+						9,
+						10,
+						15
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern-Debug-88bde94350c4fc5056f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "extern",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "extern/sdl",
+					"jsonFile" : "directory-extern.sdl-Debug-a17b9626d74337e786f0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "extern/sdl",
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						5
+					]
+				},
+				{
+					"build" : "extern/sdl_ttf",
+					"childIndexes" : 
+					[
+						5,
+						6,
+						7,
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.sdl_ttf-Debug-90db5ef96e132180c177.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "extern/sdl_ttf",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "extern/sdl_ttf/external/harfbuzz-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.sdl_ttf.external.harfbuzz-build-Debug-a3a64ddfc5517104bd00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "extern/sdl_ttf/external/harfbuzz",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "extern/sdl_ttf/external/freetype-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.sdl_ttf.external.freetype-build-Debug-1cac628d66c80d8f4dba.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 4,
+					"source" : "extern/sdl_ttf/external/freetype",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "extern/sdl_ttf/external/plutovg-build",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.sdl_ttf.external.plutovg-build-Debug-7c91e30b1adc8e4ee67c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 5,
+					"source" : "extern/sdl_ttf/external/plutovg",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "extern/sdl_ttf/external/plutosvg-guild",
+					"jsonFile" : "directory-extern.sdl_ttf.external.plutosvg-guild-Debug-c86b71adb5565fa97cd0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 6,
+					"source" : "extern/sdl_ttf/external/plutosvg",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "extern/sdl_mixer",
+					"jsonFile" : "directory-extern.sdl_mixer-Debug-c3ebb36c104736da2ada.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 7,
+					"source" : "extern/sdl_mixer",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "extern/sdl_image",
+					"childIndexes" : 
+					[
+						11
+					],
+					"jsonFile" : "directory-extern.sdl_image-Debug-cf9a09b52f8731534405.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 8,
+					"source" : "extern/sdl_image",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "extern/sdl_image/external/libtiff-build",
+					"childIndexes" : 
+					[
+						12,
+						13,
+						14
+					],
+					"jsonFile" : "directory-extern.sdl_image.external.libtiff-build-Debug-40f55a31b5986bc30e43.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 10,
+					"projectIndex" : 9,
+					"source" : "extern/sdl_image/external/libtiff",
+					"targetIndexes" : 
+					[
+						18
+					]
+				},
+				{
+					"build" : "extern/sdl_image/external/libtiff-build/port",
+					"jsonFile" : "directory-extern.sdl_image.external.libtiff-build.port-Debug-e582b3d69e06aa7bd30a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 9,
+					"source" : "extern/sdl_image/external/libtiff/port",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "extern/sdl_image/external/libtiff-build/libtiff",
+					"jsonFile" : "directory-extern.sdl_image.external.libtiff-build.libtiff-Debug-69aec1dda9043c7c17e1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 9,
+					"source" : "extern/sdl_image/external/libtiff/libtiff",
+					"targetIndexes" : 
+					[
+						16,
+						19
+					]
+				},
+				{
+					"build" : "extern/sdl_image/external/libtiff-build/build",
+					"jsonFile" : "directory-extern.sdl_image.external.libtiff-build.build-Debug-eb4dddc94e87ad4a8406.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9.0"
+					},
+					"parentIndex" : 11,
+					"projectIndex" : 9,
+					"source" : "extern/sdl_image/external/libtiff/build"
+				},
+				{
+					"build" : "extern/rml_ui",
+					"childIndexes" : 
+					[
+						16,
+						22
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.rml_ui-Debug-09200721642051bd2e62.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui"
+				},
+				{
+					"build" : "extern/rml_ui/Source",
+					"childIndexes" : 
+					[
+						17,
+						21
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.rml_ui.Source-Debug-2f3cf41f2884fc1656bc.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source"
+				},
+				{
+					"build" : "extern/rml_ui/Source/Core",
+					"childIndexes" : 
+					[
+						18,
+						19,
+						20
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.rml_ui.Source.Core-Debug-6293e6c745a6e8f00d1d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source/Core",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "extern/rml_ui/Source/Core/Elements",
+					"jsonFile" : "directory-extern.rml_ui.Source.Core.Elements-Debug-9fbae3d65b7350ddbe58.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source/Core/Elements"
+				},
+				{
+					"build" : "extern/rml_ui/Source/Core/Layout",
+					"jsonFile" : "directory-extern.rml_ui.Source.Core.Layout-Debug-9ce8c0329f4029d7e397.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source/Core/Layout"
+				},
+				{
+					"build" : "extern/rml_ui/Source/Core/FontEngineDefault",
+					"jsonFile" : "directory-extern.rml_ui.Source.Core.FontEngineDefault-Debug-9f99f457250772b6cc7d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 17,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source/Core/FontEngineDefault"
+				},
+				{
+					"build" : "extern/rml_ui/Source/Debugger",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-extern.rml_ui.Source.Debugger-Debug-29f273dde462c20cdc3c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 16,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Source/Debugger",
+					"targetIndexes" : 
+					[
+						14
+					]
+				},
+				{
+					"build" : "extern/rml_ui/Samples",
+					"jsonFile" : "directory-extern.rml_ui.Samples-Debug-d356e4262d9e29d01548.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 15,
+					"projectIndex" : 10,
+					"source" : "extern/rml_ui/Samples"
+				},
+				{
+					"build" : "apps",
+					"jsonFile" : "directory-apps-Debug-12c899f314185723a34a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "4.0.2"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "apps",
+					"targetIndexes" : 
+					[
+						9
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2,
+						7,
+						8,
+						10
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						23
+					],
+					"name" : "CrossFun",
+					"targetIndexes" : 
+					[
+						7,
+						9,
+						12,
+						15
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "SDL3",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						3,
+						5
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "SDL3_ttf",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "harfbuzz",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "freetype",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "plutovg",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "plutosvg",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "SDL3_mixer",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9
+					],
+					"directoryIndexes" : 
+					[
+						10
+					],
+					"name" : "SDL3_image",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						11,
+						12,
+						13,
+						14
+					],
+					"name" : "tiff",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"name" : "RmlUi",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL3-static::@59b638b17438f369295d",
+					"jsonFile" : "target-SDL3-static-Debug-2f7d30fdd8d52febd98b.json",
+					"name" : "SDL3-static",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "SDL3_image-static::@517350122acd1579cae9",
+					"jsonFile" : "target-SDL3_image-static-Debug-5ef0cfa6f6d942dc4c39.json",
+					"name" : "SDL3_image-static",
+					"projectIndex" : 8
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "SDL3_mixer-static::@2525eb5a7216c6e8ba9f",
+					"jsonFile" : "target-SDL3_mixer-static-Debug-4bf5d4de6218e6829c2e.json",
+					"name" : "SDL3_mixer-static",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL3_test::@59b638b17438f369295d",
+					"jsonFile" : "target-SDL3_test-Debug-6e860abff87603913ef5.json",
+					"name" : "SDL3_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "SDL3_ttf-static::@208409fbfa68efeaf6f1",
+					"jsonFile" : "target-SDL3_ttf-static-Debug-4f8d53bec540bed463c3.json",
+					"name" : "SDL3_ttf-static",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "SDL_uclibc::@59b638b17438f369295d",
+					"jsonFile" : "target-SDL_uclibc-Debug-c0c6e232598d2152a4f4.json",
+					"name" : "SDL_uclibc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "freetype::@7d6b755754b93ca1092d",
+					"jsonFile" : "target-freetype-Debug-95dbe0cbe68d177b7e54.json",
+					"name" : "freetype",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "glad::@411ffd8adc737496fe19",
+					"jsonFile" : "target-glad-Debug-6d8b37726e2a3b4c7dcf.json",
+					"name" : "glad",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "harfbuzz::@61ce1337340d846d1588",
+					"jsonFile" : "target-harfbuzz-Debug-f67092e1ae6bd045b08a.json",
+					"name" : "harfbuzz",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "main::@9e189ee61a034fc9b705",
+					"jsonFile" : "target-main-Debug-505a448c830d9de64260.json",
+					"name" : "main",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "plutosvg::@e50f276d5fb95996759d",
+					"jsonFile" : "target-plutosvg-Debug-b5c1a49af7fa662287b3.json",
+					"name" : "plutosvg",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "plutovg::@36e6c90af6c7b937ea34",
+					"jsonFile" : "target-plutovg-Debug-55c9f1764c8807ae9311.json",
+					"name" : "plutovg",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "rmlui_backend_SDL_GL3::@4b650f177ba80d6d5e76",
+					"jsonFile" : "target-rmlui_backend_SDL_GL3-Debug-c9edff3f7402527ffedb.json",
+					"name" : "rmlui_backend_SDL_GL3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "rmlui_core::@a34cfabcfda8afb4e3e0",
+					"jsonFile" : "target-rmlui_core-Debug-2ad9c5125e1ea89523e4.json",
+					"name" : "rmlui_core",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "rmlui_debugger::@739ab7f2c2527e4622ce",
+					"jsonFile" : "target-rmlui_debugger-Debug-879ff21b17c08d56a772.json",
+					"name" : "rmlui_debugger",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shell::@411ffd8adc737496fe19",
+					"jsonFile" : "target-shell-Debug-d564ceb55097dfab355b.json",
+					"name" : "shell",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "tiff::@87e9f74ea2de2985e5d5",
+					"jsonFile" : "target-tiff-Debug-6972d1d4e69888748468.json",
+					"name" : "tiff",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "tiff_port::@840ef4e06b4ad7bfb60a",
+					"jsonFile" : "target-tiff_port-Debug-b79cb3f0426ae1d2a54d.json",
+					"name" : "tiff_port",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tiff_release::@2424734fa55194f2b28f",
+					"jsonFile" : "target-tiff_release-Debug-f8fc2b9fb73547f3abde.json",
+					"name" : "tiff_release",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 13,
+					"id" : "tiffxx::@87e9f74ea2de2985e5d5",
+					"jsonFile" : "target-tiffxx-Debug-93a231e8fd25ee178b78.json",
+					"name" : "tiffxx",
+					"projectIndex" : 9
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/cakit/Desktop/RmlUi-hi/build",
+		"source" : "C:/Users/cakit/Desktop/RmlUi-hi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 8
+	}
+}

@@ -66,16 +66,11 @@ endif()
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(GET_RUNTIME_DEPENDENCIES
     RESOLVED_DEPENDENCIES_VAR _CMAKE_DEPS
-    LIBRARIES
-      "C:/Users/cakit/Desktop/RmlUi-hi/build/rmlui.dll"
-      "C:/Users/cakit/Desktop/RmlUi-hi/build/rmlui_debugger.dll"
     PRE_EXCLUDE_REGEXES
       "api-ms-"
       "ext-ms-"
     POST_EXCLUDE_REGEXES
       ".*system32/.*\\.dll"
-    POST_EXCLUDE_FILES_STRICT
-      "C:/Users/cakit/Desktop/RmlUi-hi/build/rmlui.dll"
     )
 endif()
 

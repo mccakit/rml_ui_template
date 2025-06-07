@@ -16,6 +16,7 @@ C:/Users/cakit/Desktop/RmlUi-hi/build/source/CMakeFiles/list_install_components.
 C:/Users/cakit/Desktop/RmlUi-hi/build/source/CMakeFiles/install.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/source/CMakeFiles/install/local.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/source/CMakeFiles/install/strip.dir
+C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/rmlui_backend_SDL_GL3.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/package.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/package_source.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/edit_cache.dir
@@ -24,7 +25,7 @@ C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/list_install_components.
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/install.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/install/local.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/CMakeFiles/install/strip.dir
-C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/SDL3-shared.dir
+C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/SDL3-static.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/SDL3_test.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/SDL_uclibc.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/package.dir
@@ -35,7 +36,7 @@ C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/list_install_compone
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/install.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/install/local.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl/CMakeFiles/install/strip.dir
-C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/CMakeFiles/SDL3_ttf-shared.dir
+C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/CMakeFiles/SDL3_ttf-static.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/CMakeFiles/package.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/CMakeFiles/package_source.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/CMakeFiles/edit_cache.dir
@@ -80,7 +81,7 @@ C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/external/plutosvg-guild/CMa
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/external/plutosvg-guild/CMakeFiles/install.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/external/plutosvg-guild/CMakeFiles/install/local.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_ttf/external/plutosvg-guild/CMakeFiles/install/strip.dir
-C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/SDL3_mixer-shared.dir
+C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/SDL3_mixer-static.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/package.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/package_source.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/edit_cache.dir
@@ -89,7 +90,7 @@ C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/list_install_c
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/install.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/install/local.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_mixer/CMakeFiles/install/strip.dir
-C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image/CMakeFiles/SDL3_image-shared.dir
+C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image/CMakeFiles/SDL3_image-static.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image/CMakeFiles/package.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image/CMakeFiles/package_source.dir
 C:/Users/cakit/Desktop/RmlUi-hi/build/extern/sdl_image/CMakeFiles/edit_cache.dir
