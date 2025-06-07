@@ -1,0 +1,15 @@
+[submodule "extern/rml_ui"]
+	path = extern/rml_ui
+	url = git@github.com:mikke89/RmlUi.git
+[submodule "extern/sdl"]
+	path = extern/sdl
+	url = git@github.com:libsdl-org/SDL.git
+[submodule "extern/sdl_image"]
+	path = extern/sdl_image
+	url = git@github.com:libsdl-org/SDL_image.git
+[submodule "extern/sdl_ttf"]
+	path = extern/sdl_ttf
+	url = git@github.com:libsdl-org/SDL_ttf.git
+[submodule "extern/sdl_mixer"]
+	path = extern/sdl_mixer
+	url = git@github.com:libsdl-org/SDL_mixer.git

@@ -1,0 +1,10 @@
+add_library(glad)
+target_sources(glad PRIVATE glad/glad.c)
+target_include_directories(glad PRIVATE ${CMAKE_SOURCE_DIR}/include)
+
+add_library(shell)
+file(GLOB shell_src shell/*.cpp)
+target_sources(shell PUBLIC ${shell_src})
+target_include_directories(shell PUBLIC ${CMAKE_SOURCE_DIR}/include)
+target_link_libraries(shell PUBLIC RmlUi::RmlUi rmlui_backend_SDL_GL3)
+target_link_libraries(shell PRIVATE shlwapi)
