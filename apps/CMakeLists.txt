@@ -9,3 +9,22 @@ target_link_libraries(
         RmlUi::RmlUi
         rmlui_backend_SDL_GL3
 )
+macro(copy_helper filename)
+    set(outname ${CMAKE_BINARY_DIR}/apps)
+    add_custom_command(
+        TARGET main
+        POST_BUILD
+        COMMAND
+            ${CMAKE_COMMAND} -E copy_if_different
+            "${CMAKE_CURRENT_LIST_DIR}/${filename}" "${outname}"
+    )
+endmacro()
+copy_helper("demo.rml")
+copy_helper("invader.rcss")
+copy_helper("invader.tga")
+copy_directory_helper("LatoLatin-Bold.ttf")
+copy_directory_helper("LatoLatin-BoldItalic.ttf")
+copy_directory_helper("LatoLatin-Italic.ttf")
+copy_directory_helper("LatoLatin-Regular.ttf")
+copy_directory_helper("rml.rcss")
+copy_directory_helper("window.rml")
