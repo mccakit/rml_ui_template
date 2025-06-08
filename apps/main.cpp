@@ -1,107 +1,59 @@
 #include <RmlUi/Core.h>
 #include <RmlUi/Debugger.h>
 #include <RmlUi_Backend.h>
-#include <chrono>
-#include <thread>
+#include <SDL3/SDL.h>
 #include <SDL3/SDL_main.h>
 
-bool ProcessKeyDownShortcuts(Rml::Context *context, Rml::Input::KeyIdentifier key, int key_modifier,
-                             float native_dp_ratio, bool priority)
+struct AppState
 {
-    if (!context)
-        return true;
+    Rml::Context *context;
+    Rml::ElementDocument *document;
+};
 
-    // Result should return true to allow the event to propagate to the next handler.
-    bool result = false;
+AppState state{};
 
-    // This function is intended to be called twice by the backend, before and after submitting the key event to the
-    // context. This way we can intercept shortcuts that should take priority over the context, and then handle any
-    // shortcuts of lower priority if the context did not intercept it.
-    if (priority)
-    {
-        // Priority shortcuts are handled before submitting the key to the context.
-
-        // Toggle debugger and set dp-ratio using Ctrl +/-/0 keys.
-        if (key == Rml::Input::KI_F8)
-        {
-            Rml::Debugger::SetVisible(!Rml::Debugger::IsVisible());
-        }
-        else if (key == Rml::Input::KI_0 && key_modifier & Rml::Input::KM_CTRL)
-        {
-            context->SetDensityIndependentPixelRatio(native_dp_ratio);
-        }
-        else if (key == Rml::Input::KI_1 && key_modifier & Rml::Input::KM_CTRL)
-        {
-            context->SetDensityIndependentPixelRatio(1.f);
-        }
-        else if ((key == Rml::Input::KI_OEM_MINUS || key == Rml::Input::KI_SUBTRACT) &&
-                 key_modifier & Rml::Input::KM_CTRL)
-        {
-            const float new_dp_ratio = Rml::Math::Max(context->GetDensityIndependentPixelRatio() / 1.2f, 0.5f);
-            context->SetDensityIndependentPixelRatio(new_dp_ratio);
-        }
-        else if ((key == Rml::Input::KI_OEM_PLUS || key == Rml::Input::KI_ADD) && key_modifier & Rml::Input::KM_CTRL)
-        {
-            const float new_dp_ratio = Rml::Math::Min(context->GetDensityIndependentPixelRatio() * 1.2f, 2.5f);
-            context->SetDensityIndependentPixelRatio(new_dp_ratio);
-        }
-        else
-        {
-            // Propagate the key down event to the context.
-            result = true;
-        }
-    }
-    else
-    {
-        // We arrive here when no priority keys are detected and the key was not consumed by the context. Check for
-        // shortcuts of lower priority.
-        if (key == Rml::Input::KI_R && key_modifier & Rml::Input::KM_CTRL)
-        {
-            for (int i = 0; i < context->GetNumDocuments(); i++)
-            {
-                Rml::ElementDocument *document = context->GetDocument(i);
-                const Rml::String &src = document->GetSourceURL();
-                if (src.size() > 4 && src.substr(src.size() - 4) == ".rml")
-                {
-                    document->ReloadStyleSheet();
-                }
-            }
-        }
-        else
-        {
-            result = true;
-        }
-    }
-
-    return result;
-}
-int SDL_main(int argc, char *argv[])
+SDL_AppResult SDL_AppInit(void **appstate, int argc, char *argv[])
 {
-    const int window_width = 1024;
-    const int window_height = 768;
-    Backend::Initialize("Load Document Sample", window_width, window_height, true);
+    Backend::Initialize("Load Document Sample", 1024, 768, true);
     Rml::SetSystemInterface(Backend::GetSystemInterface());
     Rml::SetRenderInterface(Backend::GetRenderInterface());
     Rml::Initialise();
-    Rml::Context *context = Rml::CreateContext("main", Rml::Vector2i(window_width, window_height));
-    Rml::Debugger::Initialise(context);
-    Rml::LoadFontFace("LatoLatin-Regular.ttf");
-    Rml::LoadFontFace("LatoLatin-Italic.ttf");
-    Rml::LoadFontFace("LatoLatin-Bold.ttf");
-    Rml::LoadFontFace("LatoLatin-BoldItalic.ttf");
-    Rml::ElementDocument *document = context->LoadDocument("demo.rml");
-    document->Show();
-    bool running = true;
-    while (running)
+
+    state.context = Rml::CreateContext("main", Rml::Vector2i(1024, 768));
+    Rml::Debugger::Initialise(state.context);
+
+    size_t font_size;
+    void *font_data = SDL_LoadFile("LatoLatin-Regular.ttf", &font_size);
+    Rml::Span<const Rml::byte> font_span(static_cast<const Rml::byte *>(font_data), font_size);
+    Rml::LoadFontFace(font_span, "LatoLatin", Rml::Style::FontStyle::Normal, Rml::Style::FontWeight::Normal);
+    char *doc_data = static_cast<char *>(SDL_LoadFile("demo.rml", nullptr));
+    state.document = state.context->LoadDocumentFromMemory(doc_data);
+    state.document->Show();
+
+    return SDL_APP_CONTINUE;
+}
+
+SDL_AppResult SDL_AppEvent(void *appstate, SDL_Event *event)
+{
+    if (event->type == SDL_EVENT_QUIT)
     {
-        running = Backend::ProcessEvents(context, &ProcessKeyDownShortcuts, true);
-        context->Update();
-        Backend::BeginFrame();
-        context->Render();
-        Backend::PresentFrame();
-        std::this_thread::sleep_for(std::chrono::seconds(1 / 60));
+        return SDL_APP_SUCCESS;
     }
+    return SDL_APP_CONTINUE;
+}
+
+SDL_AppResult SDL_AppIterate(void *appstate)
+{
+    state.context->Update();
+    Backend::BeginFrame();
+    state.context->Render();
+    Backend::PresentFrame();
+
+    return SDL_APP_CONTINUE;
+}
+
+void SDL_AppQuit(void *appstate, SDL_AppResult result)
+{
     Rml::Shutdown();
     Backend::Shutdown();
-    return 0;
 }
