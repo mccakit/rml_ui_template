@@ -1,4 +1,5 @@
 add_executable(main main.cpp)
+target_compile_definitions(main PUBLIC SDL_MAIN_USE_CALLBACKS)
 target_link_libraries(
     main
     PRIVATE
