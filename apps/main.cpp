@@ -3,6 +3,7 @@
 #include <RmlUi_Backend.h>
 #include <chrono>
 #include <thread>
+#include <SDL3/SDL_main.h>
 
 bool ProcessKeyDownShortcuts(Rml::Context *context, Rml::Input::KeyIdentifier key, int key_modifier,
                              float native_dp_ratio, bool priority)
@@ -74,7 +75,7 @@ bool ProcessKeyDownShortcuts(Rml::Context *context, Rml::Input::KeyIdentifier ke
 
     return result;
 }
-int main()
+int SDL_main(int argc, char *argv[])
 {
     const int window_width = 1024;
     const int window_height = 768;

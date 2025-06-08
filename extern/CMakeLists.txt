@@ -31,5 +31,11 @@ target_include_directories(
     rmlui_backend_SDL_GL3
     INTERFACE ${RMLUI_BACKEND_PATH}
 )
-find_package(OpenGL REQUIRED)
-target_link_libraries(rmlui_backend_SDL_GL3 INTERFACE OpenGL::GL)
+if(EMSCRIPTEN)
+    target_link_options(rmlui_backend_SDL_GL3 INTERFACE "-sUSE_WEBGL2=1")
+elseif(ANDROID)
+    target_link_libraries(rmlui_backend_SDL_GL3 INTERFACE GLESv3)
+else()
+    find_package(OpenGL REQUIRED)
+    target_link_libraries(rmlui_backend_SDL_GL3 INTERFACE OpenGL::GL)
+endif()
